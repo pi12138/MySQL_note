@@ -12,3 +12,4 @@
   - `mysqldump -u root -p blog myblog_article > blog.txt`
   - `mysqldump -u root -p 数据库名 数据表名 > 要导出的文件名`
 
+
