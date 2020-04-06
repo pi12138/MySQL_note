@@ -12,4 +12,19 @@
   - `mysqldump -u root -p blog myblog_article > blog.txt`
   - `mysqldump -u root -p 数据库名 数据表名 > 要导出的文件名`
 
+## 完整数据库的导入和导出
 
+### 导出
+
+- `mysqldump -u root -p  database_name>file_anme`
+- `mysqldump -u root -p 数据库名>要导出到的文件名`
+
+## 导入
+
+1. 先创建一个新的数据库
+
+2. `use new_database`
+
+3. `source 数据文件路径`
+
+    
